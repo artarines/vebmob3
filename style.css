@@ -13,8 +13,8 @@ html, body {
 .container {
     display: grid;
     /* Desktop Layout */
-    grid-template-columns: 20% 20px 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
     min-height: 100vh;
     width: 100%;
 }
@@ -181,5 +181,6 @@ html, body {
     #block1, #block4, #block2, #block3, #block5 {
         padding: 10px 15px; 
     }
+
 
 }
